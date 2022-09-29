@@ -36,8 +36,11 @@
 }
 
 #resizable {
-    background-image: url(../img/fondo.jpg);
-    left: 10px;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    display: flexbox;
+    left: 50px;
+    right: 100px;
     width: 600px;
     height: 600px;
     padding: 2em;
@@ -52,7 +55,7 @@
 }
 
 #desplegable {
-    color: azure;
+    color: rgb(64, 25, 219);
 }
 
 .puntaje {
